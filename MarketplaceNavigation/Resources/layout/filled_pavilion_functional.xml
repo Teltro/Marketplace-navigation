@@ -1,0 +1,19 @@
+﻿<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:id="@+id/filledPavilionFunctional"
+    android:visibility="gone">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add avilion"
+        android:id="@+id/addPavilionToShopButton"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Close this pavilion"
+        android:id="@+id/closeShopButton"/>
+</LinearLayout>

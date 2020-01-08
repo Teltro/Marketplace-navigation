@@ -1,0 +1,14 @@
+﻿<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal = "8dp"
+    android:id="@+id/everyPavilionFunctional"
+    android:visibility="gone">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Separate one Pavilion"
+        android:id="@+id/separatePavilionButton"/>
+</LinearLayout>   

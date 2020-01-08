@@ -1,0 +1,36 @@
+﻿
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:textSize="50dp"
+        android:textColor="#333333"
+        android:text="101"
+        android:id="@+id/pavilionNumTextView"
+        android:layout_marginLeft="4dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textSize="40dp" 
+        android:textColor="#333333"
+        android:id="@+id/shopNameTextView"/>
+    </LinearLayout>
+    <include
+        layout="@layout/shop_details"/>
+    <include 
+        layout="@layout/every_pavilion_functional"/>
+    <include
+        layout="@layout/empty_pavilion_functional"/>
+    <include
+        layout="@layout/filled_pavilion_functional"/>
+</LinearLayout>

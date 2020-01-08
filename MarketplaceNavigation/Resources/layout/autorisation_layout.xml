@@ -1,0 +1,48 @@
+﻿
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="30dp"
+        android:hint="Username"
+        android:imeOptions="actionGo"
+        android:id="@+id/autorisationUserNameEditText"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:inputType="textMultiLine"
+        android:textSize="30dp"
+        android:password="true"
+        android:hint="Password"
+        android:imeOptions="actionDone"
+        android:id="@+id/autorisationPasswordEditText"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:inputType="textMultiLine"
+        android:textSize="30dp"
+        android:password="true"
+        android:hint="Repeat Password"
+        android:imeOptions="actionDone"
+        android:id="@+id/autorisationPasswordRepeatEditText"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="I have account"
+        android:id="@+id/autorisationRegisteredCheckBox"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:id="@+id/autorisationRegisterButton"/>
+</LinearLayout>

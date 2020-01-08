@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">MarketplaceNavigation</string>
+  <string name="action_settings">Settings</string>
+  <string name="open">Open navigation</string>
+  <string name="close">Close navigation</string>
+  <string name="search_hint">Click to search</string>
+</resources>
